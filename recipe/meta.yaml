@@ -1,5 +1,5 @@
 {% set name = "aiohttp-security" %}
-{% set version = "0.4.0" %}
+{% set version = "0.5.0" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 40d4bb150454e392c2dfa3620f6eab28e140e94cf0c2d3b4bf43aef653ec9405
+  sha256: 50cb724d310e1d0289798bb98ae852c3b75b77e8f51ce5159c57b7261d0638bd
 
 build:
   number: 0
